@@ -39,7 +39,7 @@ const RightSidebar = ({ selectedUser, setSelectedUser }) => {
           >
             <img
               src={user?.profilePic || assets.avatar_icon}
-              alt={user.fullName || 'User'}
+              alt="S"
               className='w-[35px] aspect-[1/1] rounded-full'
             />
             <div className='flex flex-col leading-5'>
